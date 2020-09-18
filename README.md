@@ -1,6 +1,7 @@
 # algo
 **Knutt-Moris-Pratt**
 **Prefix-function**
+
 def create_suffix(str_):
     pis = [0]*len(str_)
     for ind, elem in enumerate(str_):
@@ -12,4 +13,4 @@ def create_suffix(str_):
                 j += 1
             pis[ind] = j
         
-    return pis
+return pis
